@@ -358,10 +358,10 @@
 
 .services h1 {
     background-color: #829eab;
-    background-image: linear-gradient(to right, #829eab 0%, #a3b5c0 0%, #90a4b0 21%, #758d9d 52%, #213a5c 100%);
+    background-image: linear-gradient(to top, #829eab 0%, #a3b5c0 0%, #90a4b0 21%, #758d9d 52%, #213a5c 90%);
     background-size: 100%;
     margin-bottom: 5rem;
-    font-size: 2.5rem;
+    font-size: 3rem;
     background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -386,8 +386,12 @@
 }
 
 .services__card:nth-child(2) {
+    background-image: linear-gradient(to bottom, rgb(235, 235, 228) 0%, rgba(17, 17, 17, 0.16) 20%), url("images/hacks.jpg");
+}
+.services__card:nth-child(3) {
     background-image: linear-gradient(to bottom, rgb(235, 235, 228) 0%, rgba(17, 17, 17, 0.16) 20%), url("images/toys.jpg");
 }
+
 
 .services h2 {
     position: absolute;
